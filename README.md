@@ -5,6 +5,9 @@ This is a Snakemake workflow, and it requires Mambaforge. Please see these instr
 After installing Mambaforge, create a new conda environment using the environment.yaml file. 
 
 ## Creating the environment
-'''
+
+```
 micromamba create -n AAFC_snakemake_env --file environment.yaml
-'''
+
+```
+
