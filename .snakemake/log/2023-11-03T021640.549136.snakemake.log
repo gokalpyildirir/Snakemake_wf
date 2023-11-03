@@ -1,0 +1,3 @@
+WildcardError in file /ssd1/franck_amfgenomes/Snakemake_wf/Snakefile, line 26:
+No values given for wildcard 'wildcards'.
+  File "/ssd1/franck_amfgenomes/Snakemake_wf/Snakefile", line 26, in <module>

@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+all               1
+iqtree_run        1
+total             2
+
+Select jobs to execute...
+
+[Fri Nov  3 02:50:35 2023]
+rule iqtree_run:
+    input: singlescp_trimal.out
+    output: all_amf.iqtree
+    jobid: 1
+    reason: Missing output files: all_amf.iqtree
+    resources: tmpdir=/tmp
+

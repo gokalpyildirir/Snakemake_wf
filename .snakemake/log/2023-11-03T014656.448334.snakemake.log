@@ -1,0 +1,2300 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count
+-----------  -------
+cat_align          1
+mafft_align      151
+total            152
+
+Select jobs to execute...
+
+[Fri Nov  3 01:46:56 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006090.fa
+    output: mafft_aligned/OG0006090.alignment
+    jobid: 68
+    reason: Missing output files: mafft_aligned/OG0006090.alignment
+    wildcards: sample=OG0006090
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:46:56 2023]
+Finished job 68.
+1 of 152 steps (1%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:46:57 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006258.fa
+    output: mafft_aligned/OG0006258.alignment
+    jobid: 128
+    reason: Missing output files: mafft_aligned/OG0006258.alignment
+    wildcards: sample=OG0006258
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:46:57 2023]
+Finished job 128.
+2 of 152 steps (1%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:46:57 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005960.fa
+    output: mafft_aligned/OG0005960.alignment
+    jobid: 15
+    reason: Missing output files: mafft_aligned/OG0005960.alignment
+    wildcards: sample=OG0005960
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:00 2023]
+Finished job 15.
+3 of 152 steps (2%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:00 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006260.fa
+    output: mafft_aligned/OG0006260.alignment
+    jobid: 129
+    reason: Missing output files: mafft_aligned/OG0006260.alignment
+    wildcards: sample=OG0006260
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:02 2023]
+Finished job 129.
+4 of 152 steps (3%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:02 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006039.fa
+    output: mafft_aligned/OG0006039.alignment
+    jobid: 44
+    reason: Missing output files: mafft_aligned/OG0006039.alignment
+    wildcards: sample=OG0006039
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:07 2023]
+Finished job 44.
+5 of 152 steps (3%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:07 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005965.fa
+    output: mafft_aligned/OG0005965.alignment
+    jobid: 17
+    reason: Missing output files: mafft_aligned/OG0005965.alignment
+    wildcards: sample=OG0005965
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:08 2023]
+Finished job 17.
+6 of 152 steps (4%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:08 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006118.fa
+    output: mafft_aligned/OG0006118.alignment
+    jobid: 77
+    reason: Missing output files: mafft_aligned/OG0006118.alignment
+    wildcards: sample=OG0006118
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:08 2023]
+Finished job 77.
+7 of 152 steps (5%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:08 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006041.fa
+    output: mafft_aligned/OG0006041.alignment
+    jobid: 45
+    reason: Missing output files: mafft_aligned/OG0006041.alignment
+    wildcards: sample=OG0006041
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:10 2023]
+Finished job 45.
+8 of 152 steps (5%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:10 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006191.fa
+    output: mafft_aligned/OG0006191.alignment
+    jobid: 105
+    reason: Missing output files: mafft_aligned/OG0006191.alignment
+    wildcards: sample=OG0006191
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:10 2023]
+Finished job 105.
+9 of 152 steps (6%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:10 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006119.fa
+    output: mafft_aligned/OG0006119.alignment
+    jobid: 78
+    reason: Missing output files: mafft_aligned/OG0006119.alignment
+    wildcards: sample=OG0006119
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:10 2023]
+Finished job 78.
+10 of 152 steps (7%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:10 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006278.fa
+    output: mafft_aligned/OG0006278.alignment
+    jobid: 134
+    reason: Missing output files: mafft_aligned/OG0006278.alignment
+    wildcards: sample=OG0006278
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:10 2023]
+Finished job 134.
+11 of 152 steps (7%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:10 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006197.fa
+    output: mafft_aligned/OG0006197.alignment
+    jobid: 106
+    reason: Missing output files: mafft_aligned/OG0006197.alignment
+    wildcards: sample=OG0006197
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:11 2023]
+Finished job 106.
+12 of 152 steps (8%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:11 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005948.fa
+    output: mafft_aligned/OG0005948.alignment
+    jobid: 8
+    reason: Missing output files: mafft_aligned/OG0005948.alignment
+    wildcards: sample=OG0005948
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:11 2023]
+Finished job 8.
+13 of 152 steps (9%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:11 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006280.fa
+    output: mafft_aligned/OG0006280.alignment
+    jobid: 135
+    reason: Missing output files: mafft_aligned/OG0006280.alignment
+    wildcards: sample=OG0006280
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:12 2023]
+Finished job 135.
+14 of 152 steps (9%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:12 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006044.fa
+    output: mafft_aligned/OG0006044.alignment
+    jobid: 47
+    reason: Missing output files: mafft_aligned/OG0006044.alignment
+    wildcards: sample=OG0006044
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:12 2023]
+Finished job 47.
+15 of 152 steps (10%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:12 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005969.fa
+    output: mafft_aligned/OG0005969.alignment
+    jobid: 20
+    reason: Missing output files: mafft_aligned/OG0005969.alignment
+    wildcards: sample=OG0005969
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:13 2023]
+Finished job 20.
+16 of 152 steps (11%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:13 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006270.fa
+    output: mafft_aligned/OG0006270.alignment
+    jobid: 132
+    reason: Missing output files: mafft_aligned/OG0006270.alignment
+    wildcards: sample=OG0006270
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:13 2023]
+Finished job 132.
+17 of 152 steps (11%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:13 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006189.fa
+    output: mafft_aligned/OG0006189.alignment
+    jobid: 104
+    reason: Missing output files: mafft_aligned/OG0006189.alignment
+    wildcards: sample=OG0006189
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:13 2023]
+Finished job 104.
+18 of 152 steps (12%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:13 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006255.fa
+    output: mafft_aligned/OG0006255.alignment
+    jobid: 127
+    reason: Missing output files: mafft_aligned/OG0006255.alignment
+    wildcards: sample=OG0006255
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:14 2023]
+Finished job 127.
+19 of 152 steps (12%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:14 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006031.fa
+    output: mafft_aligned/OG0006031.alignment
+    jobid: 40
+    reason: Missing output files: mafft_aligned/OG0006031.alignment
+    wildcards: sample=OG0006031
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:14 2023]
+Finished job 40.
+20 of 152 steps (13%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:14 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006181.fa
+    output: mafft_aligned/OG0006181.alignment
+    jobid: 100
+    reason: Missing output files: mafft_aligned/OG0006181.alignment
+    wildcards: sample=OG0006181
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:14 2023]
+Finished job 100.
+21 of 152 steps (14%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:14 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006111.fa
+    output: mafft_aligned/OG0006111.alignment
+    jobid: 73
+    reason: Missing output files: mafft_aligned/OG0006111.alignment
+    wildcards: sample=OG0006111
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:15 2023]
+Finished job 73.
+22 of 152 steps (14%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:15 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005942.fa
+    output: mafft_aligned/OG0005942.alignment
+    jobid: 7
+    reason: Missing output files: mafft_aligned/OG0005942.alignment
+    wildcards: sample=OG0005942
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:15 2023]
+Finished job 7.
+23 of 152 steps (15%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:15 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006277.fa
+    output: mafft_aligned/OG0006277.alignment
+    jobid: 133
+    reason: Missing output files: mafft_aligned/OG0006277.alignment
+    wildcards: sample=OG0006277
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:16 2023]
+Finished job 133.
+24 of 152 steps (16%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:16 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006043.fa
+    output: mafft_aligned/OG0006043.alignment
+    jobid: 46
+    reason: Missing output files: mafft_aligned/OG0006043.alignment
+    wildcards: sample=OG0006043
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:16 2023]
+Finished job 46.
+25 of 152 steps (16%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:16 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006122.fa
+    output: mafft_aligned/OG0006122.alignment
+    jobid: 79
+    reason: Missing output files: mafft_aligned/OG0006122.alignment
+    wildcards: sample=OG0006122
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:17 2023]
+Finished job 79.
+26 of 152 steps (17%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:17 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006202.fa
+    output: mafft_aligned/OG0006202.alignment
+    jobid: 107
+    reason: Missing output files: mafft_aligned/OG0006202.alignment
+    wildcards: sample=OG0006202
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:17 2023]
+Finished job 107.
+27 of 152 steps (18%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:17 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006123.fa
+    output: mafft_aligned/OG0006123.alignment
+    jobid: 80
+    reason: Missing output files: mafft_aligned/OG0006123.alignment
+    wildcards: sample=OG0006123
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:18 2023]
+Finished job 80.
+28 of 152 steps (18%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:18 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006204.fa
+    output: mafft_aligned/OG0006204.alignment
+    jobid: 108
+    reason: Missing output files: mafft_aligned/OG0006204.alignment
+    wildcards: sample=OG0006204
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:18 2023]
+Finished job 108.
+29 of 152 steps (19%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:18 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006126.fa
+    output: mafft_aligned/OG0006126.alignment
+    jobid: 81
+    reason: Missing output files: mafft_aligned/OG0006126.alignment
+    wildcards: sample=OG0006126
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:21 2023]
+Finished job 81.
+30 of 152 steps (20%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:21 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006288.fa
+    output: mafft_aligned/OG0006288.alignment
+    jobid: 137
+    reason: Missing output files: mafft_aligned/OG0006288.alignment
+    wildcards: sample=OG0006288
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:21 2023]
+Finished job 137.
+31 of 152 steps (20%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:21 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006205.fa
+    output: mafft_aligned/OG0006205.alignment
+    jobid: 109
+    reason: Missing output files: mafft_aligned/OG0006205.alignment
+    wildcards: sample=OG0006205
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:23 2023]
+Finished job 109.
+32 of 152 steps (21%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:23 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006261.fa
+    output: mafft_aligned/OG0006261.alignment
+    jobid: 130
+    reason: Missing output files: mafft_aligned/OG0006261.alignment
+    wildcards: sample=OG0006261
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:24 2023]
+Finished job 130.
+33 of 152 steps (22%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:24 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006289.fa
+    output: mafft_aligned/OG0006289.alignment
+    jobid: 138
+    reason: Missing output files: mafft_aligned/OG0006289.alignment
+    wildcards: sample=OG0006289
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:24 2023]
+Finished job 138.
+34 of 152 steps (22%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:24 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006053.fa
+    output: mafft_aligned/OG0006053.alignment
+    jobid: 50
+    reason: Missing output files: mafft_aligned/OG0006053.alignment
+    wildcards: sample=OG0006053
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:27 2023]
+Finished job 50.
+35 of 152 steps (23%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:27 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005976.fa
+    output: mafft_aligned/OG0005976.alignment
+    jobid: 23
+    reason: Missing output files: mafft_aligned/OG0005976.alignment
+    wildcards: sample=OG0005976
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:27 2023]
+Finished job 23.
+36 of 152 steps (24%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:27 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006295.fa
+    output: mafft_aligned/OG0006295.alignment
+    jobid: 139
+    reason: Missing output files: mafft_aligned/OG0006295.alignment
+    wildcards: sample=OG0006295
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:27 2023]
+Finished job 139.
+37 of 152 steps (24%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:27 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006213.fa
+    output: mafft_aligned/OG0006213.alignment
+    jobid: 111
+    reason: Missing output files: mafft_aligned/OG0006213.alignment
+    wildcards: sample=OG0006213
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:29 2023]
+Finished job 111.
+38 of 152 steps (25%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:29 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005977.fa
+    output: mafft_aligned/OG0005977.alignment
+    jobid: 24
+    reason: Missing output files: mafft_aligned/OG0005977.alignment
+    wildcards: sample=OG0005977
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:30 2023]
+Finished job 24.
+39 of 152 steps (26%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:30 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006299.fa
+    output: mafft_aligned/OG0006299.alignment
+    jobid: 140
+    reason: Missing output files: mafft_aligned/OG0006299.alignment
+    wildcards: sample=OG0006299
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:31 2023]
+Finished job 140.
+40 of 152 steps (26%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:31 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006102.fa
+    output: mafft_aligned/OG0006102.alignment
+    jobid: 71
+    reason: Missing output files: mafft_aligned/OG0006102.alignment
+    wildcards: sample=OG0006102
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:32 2023]
+Finished job 71.
+41 of 152 steps (27%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:32 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005987.fa
+    output: mafft_aligned/OG0005987.alignment
+    jobid: 25
+    reason: Missing output files: mafft_aligned/OG0005987.alignment
+    wildcards: sample=OG0005987
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:33 2023]
+Finished job 25.
+42 of 152 steps (28%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:33 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006134.fa
+    output: mafft_aligned/OG0006134.alignment
+    jobid: 85
+    reason: Missing output files: mafft_aligned/OG0006134.alignment
+    wildcards: sample=OG0006134
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:33 2023]
+Finished job 85.
+43 of 152 steps (28%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:33 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006057.fa
+    output: mafft_aligned/OG0006057.alignment
+    jobid: 53
+    reason: Missing output files: mafft_aligned/OG0006057.alignment
+    wildcards: sample=OG0006057
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:33 2023]
+Finished job 53.
+44 of 152 steps (29%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:33 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006221.fa
+    output: mafft_aligned/OG0006221.alignment
+    jobid: 113
+    reason: Missing output files: mafft_aligned/OG0006221.alignment
+    wildcards: sample=OG0006221
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:33 2023]
+Finished job 113.
+45 of 152 steps (30%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:33 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006135.fa
+    output: mafft_aligned/OG0006135.alignment
+    jobid: 86
+    reason: Missing output files: mafft_aligned/OG0006135.alignment
+    wildcards: sample=OG0006135
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:34 2023]
+Finished job 86.
+46 of 152 steps (30%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:34 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006303.fa
+    output: mafft_aligned/OG0006303.alignment
+    jobid: 142
+    reason: Missing output files: mafft_aligned/OG0006303.alignment
+    wildcards: sample=OG0006303
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:34 2023]
+Finished job 142.
+47 of 152 steps (31%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:34 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006186.fa
+    output: mafft_aligned/OG0006186.alignment
+    jobid: 102
+    reason: Missing output files: mafft_aligned/OG0006186.alignment
+    wildcards: sample=OG0006186
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:35 2023]
+Finished job 102.
+48 of 152 steps (32%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:35 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006225.fa
+    output: mafft_aligned/OG0006225.alignment
+    jobid: 114
+    reason: Missing output files: mafft_aligned/OG0006225.alignment
+    wildcards: sample=OG0006225
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:35 2023]
+Finished job 114.
+49 of 152 steps (32%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:35 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006136.fa
+    output: mafft_aligned/OG0006136.alignment
+    jobid: 87
+    reason: Missing output files: mafft_aligned/OG0006136.alignment
+    wildcards: sample=OG0006136
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:37 2023]
+Finished job 87.
+50 of 152 steps (33%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:37 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006304.fa
+    output: mafft_aligned/OG0006304.alignment
+    jobid: 143
+    reason: Missing output files: mafft_aligned/OG0006304.alignment
+    wildcards: sample=OG0006304
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:38 2023]
+Finished job 143.
+51 of 152 steps (34%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:38 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006226.fa
+    output: mafft_aligned/OG0006226.alignment
+    jobid: 115
+    reason: Missing output files: mafft_aligned/OG0006226.alignment
+    wildcards: sample=OG0006226
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:38 2023]
+Finished job 115.
+52 of 152 steps (34%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:38 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005992.fa
+    output: mafft_aligned/OG0005992.alignment
+    jobid: 28
+    reason: Missing output files: mafft_aligned/OG0005992.alignment
+    wildcards: sample=OG0005992
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:39 2023]
+Finished job 28.
+53 of 152 steps (35%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:39 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006140.fa
+    output: mafft_aligned/OG0006140.alignment
+    jobid: 88
+    reason: Missing output files: mafft_aligned/OG0006140.alignment
+    wildcards: sample=OG0006140
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:39 2023]
+Finished job 88.
+54 of 152 steps (36%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:39 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006063.fa
+    output: mafft_aligned/OG0006063.alignment
+    jobid: 55
+    reason: Missing output files: mafft_aligned/OG0006063.alignment
+    wildcards: sample=OG0006063
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:40 2023]
+Finished job 55.
+55 of 152 steps (36%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:40 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006305.fa
+    output: mafft_aligned/OG0006305.alignment
+    jobid: 144
+    reason: Missing output files: mafft_aligned/OG0006305.alignment
+    wildcards: sample=OG0006305
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:40 2023]
+Finished job 144.
+56 of 152 steps (37%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:40 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005958.fa
+    output: mafft_aligned/OG0005958.alignment
+    jobid: 14
+    reason: Missing output files: mafft_aligned/OG0005958.alignment
+    wildcards: sample=OG0005958
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:41 2023]
+Finished job 14.
+57 of 152 steps (38%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:41 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006064.fa
+    output: mafft_aligned/OG0006064.alignment
+    jobid: 56
+    reason: Missing output files: mafft_aligned/OG0006064.alignment
+    wildcards: sample=OG0006064
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:41 2023]
+Finished job 56.
+58 of 152 steps (38%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:41 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005990.fa
+    output: mafft_aligned/OG0005990.alignment
+    jobid: 27
+    reason: Missing output files: mafft_aligned/OG0005990.alignment
+    wildcards: sample=OG0005990
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:41 2023]
+Finished job 27.
+59 of 152 steps (39%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:41 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006228.fa
+    output: mafft_aligned/OG0006228.alignment
+    jobid: 116
+    reason: Missing output files: mafft_aligned/OG0006228.alignment
+    wildcards: sample=OG0006228
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:42 2023]
+Finished job 116.
+60 of 152 steps (39%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:42 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006001.fa
+    output: mafft_aligned/OG0006001.alignment
+    jobid: 29
+    reason: Missing output files: mafft_aligned/OG0006001.alignment
+    wildcards: sample=OG0006001
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:42 2023]
+Finished job 29.
+61 of 152 steps (40%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:42 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006141.fa
+    output: mafft_aligned/OG0006141.alignment
+    jobid: 89
+    reason: Missing output files: mafft_aligned/OG0006141.alignment
+    wildcards: sample=OG0006141
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:43 2023]
+Finished job 89.
+62 of 152 steps (41%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:43 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006033.fa
+    output: mafft_aligned/OG0006033.alignment
+    jobid: 42
+    reason: Missing output files: mafft_aligned/OG0006033.alignment
+    wildcards: sample=OG0006033
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:43 2023]
+Finished job 42.
+63 of 152 steps (41%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:43 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005949.fa
+    output: mafft_aligned/OG0005949.alignment
+    jobid: 9
+    reason: Missing output files: mafft_aligned/OG0005949.alignment
+    wildcards: sample=OG0005949
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:51 2023]
+Finished job 9.
+64 of 152 steps (42%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:51 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006114.fa
+    output: mafft_aligned/OG0006114.alignment
+    jobid: 75
+    reason: Missing output files: mafft_aligned/OG0006114.alignment
+    wildcards: sample=OG0006114
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:52 2023]
+Finished job 75.
+65 of 152 steps (43%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:52 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006269.fa
+    output: mafft_aligned/OG0006269.alignment
+    jobid: 131
+    reason: Missing output files: mafft_aligned/OG0006269.alignment
+    wildcards: sample=OG0006269
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:52 2023]
+Finished job 131.
+66 of 152 steps (43%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:52 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006229.fa
+    output: mafft_aligned/OG0006229.alignment
+    jobid: 117
+    reason: Missing output files: mafft_aligned/OG0006229.alignment
+    wildcards: sample=OG0006229
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:52 2023]
+Finished job 117.
+67 of 152 steps (44%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:52 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006002.fa
+    output: mafft_aligned/OG0006002.alignment
+    jobid: 30
+    reason: Missing output files: mafft_aligned/OG0006002.alignment
+    wildcards: sample=OG0006002
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:53 2023]
+Finished job 30.
+68 of 152 steps (45%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:53 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006146.fa
+    output: mafft_aligned/OG0006146.alignment
+    jobid: 90
+    reason: Missing output files: mafft_aligned/OG0006146.alignment
+    wildcards: sample=OG0006146
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:53 2023]
+Finished job 90.
+69 of 152 steps (45%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:53 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006313.fa
+    output: mafft_aligned/OG0006313.alignment
+    jobid: 146
+    reason: Missing output files: mafft_aligned/OG0006313.alignment
+    wildcards: sample=OG0006313
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:53 2023]
+Finished job 146.
+70 of 152 steps (46%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:53 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006067.fa
+    output: mafft_aligned/OG0006067.alignment
+    jobid: 57
+    reason: Missing output files: mafft_aligned/OG0006067.alignment
+    wildcards: sample=OG0006067
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:55 2023]
+Finished job 57.
+71 of 152 steps (47%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:55 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005953.fa
+    output: mafft_aligned/OG0005953.alignment
+    jobid: 11
+    reason: Missing output files: mafft_aligned/OG0005953.alignment
+    wildcards: sample=OG0005953
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:55 2023]
+Finished job 11.
+72 of 152 steps (47%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:55 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006068.fa
+    output: mafft_aligned/OG0006068.alignment
+    jobid: 58
+    reason: Missing output files: mafft_aligned/OG0006068.alignment
+    wildcards: sample=OG0006068
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:56 2023]
+Finished job 58.
+73 of 152 steps (48%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:56 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006231.fa
+    output: mafft_aligned/OG0006231.alignment
+    jobid: 118
+    reason: Missing output files: mafft_aligned/OG0006231.alignment
+    wildcards: sample=OG0006231
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:56 2023]
+Finished job 118.
+74 of 152 steps (49%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:56 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005921.fa
+    output: mafft_aligned/OG0005921.alignment
+    jobid: 1
+    reason: Missing output files: mafft_aligned/OG0005921.alignment
+    wildcards: sample=OG0005921
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:57 2023]
+Finished job 1.
+75 of 152 steps (49%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:57 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006166.fa
+    output: mafft_aligned/OG0006166.alignment
+    jobid: 97
+    reason: Missing output files: mafft_aligned/OG0006166.alignment
+    wildcards: sample=OG0006166
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:58 2023]
+Finished job 97.
+76 of 152 steps (50%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:58 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006154.fa
+    output: mafft_aligned/OG0006154.alignment
+    jobid: 94
+    reason: Missing output files: mafft_aligned/OG0006154.alignment
+    wildcards: sample=OG0006154
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:47:59 2023]
+Finished job 94.
+77 of 152 steps (51%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:47:59 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006129.fa
+    output: mafft_aligned/OG0006129.alignment
+    jobid: 83
+    reason: Missing output files: mafft_aligned/OG0006129.alignment
+    wildcards: sample=OG0006129
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:00 2023]
+Finished job 83.
+78 of 152 steps (51%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:00 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006024.fa
+    output: mafft_aligned/OG0006024.alignment
+    jobid: 37
+    reason: Missing output files: mafft_aligned/OG0006024.alignment
+    wildcards: sample=OG0006024
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:01 2023]
+Finished job 37.
+79 of 152 steps (52%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:01 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005950.fa
+    output: mafft_aligned/OG0005950.alignment
+    jobid: 10
+    reason: Missing output files: mafft_aligned/OG0005950.alignment
+    wildcards: sample=OG0005950
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:02 2023]
+Finished job 10.
+80 of 152 steps (53%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:02 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006115.fa
+    output: mafft_aligned/OG0006115.alignment
+    jobid: 76
+    reason: Missing output files: mafft_aligned/OG0006115.alignment
+    wildcards: sample=OG0006115
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:02 2023]
+Finished job 76.
+81 of 152 steps (53%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:02 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006079.fa
+    output: mafft_aligned/OG0006079.alignment
+    jobid: 65
+    reason: Missing output files: mafft_aligned/OG0006079.alignment
+    wildcards: sample=OG0006079
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:02 2023]
+Finished job 65.
+82 of 152 steps (54%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:02 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006238.fa
+    output: mafft_aligned/OG0006238.alignment
+    jobid: 122
+    reason: Missing output files: mafft_aligned/OG0006238.alignment
+    wildcards: sample=OG0006238
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:02 2023]
+Finished job 122.
+83 of 152 steps (55%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:02 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006109.fa
+    output: mafft_aligned/OG0006109.alignment
+    jobid: 72
+    reason: Missing output files: mafft_aligned/OG0006109.alignment
+    wildcards: sample=OG0006109
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:03 2023]
+Finished job 72.
+84 of 152 steps (55%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:03 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006216.fa
+    output: mafft_aligned/OG0006216.alignment
+    jobid: 112
+    reason: Missing output files: mafft_aligned/OG0006216.alignment
+    wildcards: sample=OG0006216
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:04 2023]
+Finished job 112.
+85 of 152 steps (56%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:04 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006232.fa
+    output: mafft_aligned/OG0006232.alignment
+    jobid: 119
+    reason: Missing output files: mafft_aligned/OG0006232.alignment
+    wildcards: sample=OG0006232
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:05 2023]
+Finished job 119.
+86 of 152 steps (57%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:05 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006056.fa
+    output: mafft_aligned/OG0006056.alignment
+    jobid: 52
+    reason: Missing output files: mafft_aligned/OG0006056.alignment
+    wildcards: sample=OG0006056
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:07 2023]
+Finished job 52.
+87 of 152 steps (57%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:07 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006251.fa
+    output: mafft_aligned/OG0006251.alignment
+    jobid: 126
+    reason: Missing output files: mafft_aligned/OG0006251.alignment
+    wildcards: sample=OG0006251
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:07 2023]
+Finished job 126.
+88 of 152 steps (58%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:07 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006069.fa
+    output: mafft_aligned/OG0006069.alignment
+    jobid: 59
+    reason: Missing output files: mafft_aligned/OG0006069.alignment
+    wildcards: sample=OG0006069
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:07 2023]
+Finished job 59.
+89 of 152 steps (59%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:07 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006030.fa
+    output: mafft_aligned/OG0006030.alignment
+    jobid: 39
+    reason: Missing output files: mafft_aligned/OG0006030.alignment
+    wildcards: sample=OG0006030
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:08 2023]
+Finished job 39.
+90 of 152 steps (59%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:08 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005923.fa
+    output: mafft_aligned/OG0005923.alignment
+    jobid: 2
+    reason: Missing output files: mafft_aligned/OG0005923.alignment
+    wildcards: sample=OG0005923
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:09 2023]
+Finished job 2.
+91 of 152 steps (60%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:09 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006179.fa
+    output: mafft_aligned/OG0006179.alignment
+    jobid: 99
+    reason: Missing output files: mafft_aligned/OG0006179.alignment
+    wildcards: sample=OG0006179
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:09 2023]
+Finished job 99.
+92 of 152 steps (61%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:09 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006084.fa
+    output: mafft_aligned/OG0006084.alignment
+    jobid: 66
+    reason: Missing output files: mafft_aligned/OG0006084.alignment
+    wildcards: sample=OG0006084
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:11 2023]
+Finished job 66.
+93 of 152 steps (61%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:11 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006010.fa
+    output: mafft_aligned/OG0006010.alignment
+    jobid: 32
+    reason: Missing output files: mafft_aligned/OG0006010.alignment
+    wildcards: sample=OG0006010
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:15 2023]
+Finished job 32.
+94 of 152 steps (62%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:15 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005935.fa
+    output: mafft_aligned/OG0005935.alignment
+    jobid: 6
+    reason: Missing output files: mafft_aligned/OG0005935.alignment
+    wildcards: sample=OG0005935
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:15 2023]
+Finished job 6.
+95 of 152 steps (62%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:15 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006148.fa
+    output: mafft_aligned/OG0006148.alignment
+    jobid: 92
+    reason: Missing output files: mafft_aligned/OG0006148.alignment
+    wildcards: sample=OG0006148
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:15 2023]
+Finished job 92.
+96 of 152 steps (63%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:15 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006322.fa
+    output: mafft_aligned/OG0006322.alignment
+    jobid: 147
+    reason: Missing output files: mafft_aligned/OG0006322.alignment
+    wildcards: sample=OG0006322
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:15 2023]
+Finished job 147.
+97 of 152 steps (64%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:15 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006324.fa
+    output: mafft_aligned/OG0006324.alignment
+    jobid: 148
+    reason: Missing output files: mafft_aligned/OG0006324.alignment
+    wildcards: sample=OG0006324
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:16 2023]
+Finished job 148.
+98 of 152 steps (64%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:16 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006130.fa
+    output: mafft_aligned/OG0006130.alignment
+    jobid: 84
+    reason: Missing output files: mafft_aligned/OG0006130.alignment
+    wildcards: sample=OG0006130
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:17 2023]
+Finished job 84.
+99 of 152 steps (65%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:17 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006301.fa
+    output: mafft_aligned/OG0006301.alignment
+    jobid: 141
+    reason: Missing output files: mafft_aligned/OG0006301.alignment
+    wildcards: sample=OG0006301
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:17 2023]
+Finished job 141.
+100 of 152 steps (66%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:17 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006147.fa
+    output: mafft_aligned/OG0006147.alignment
+    jobid: 91
+    reason: Missing output files: mafft_aligned/OG0006147.alignment
+    wildcards: sample=OG0006147
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:18 2023]
+Finished job 91.
+101 of 152 steps (66%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:18 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005966.fa
+    output: mafft_aligned/OG0005966.alignment
+    jobid: 18
+    reason: Missing output files: mafft_aligned/OG0005966.alignment
+    wildcards: sample=OG0005966
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:20 2023]
+Finished job 18.
+102 of 152 steps (67%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:20 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006021.fa
+    output: mafft_aligned/OG0006021.alignment
+    jobid: 35
+    reason: Missing output files: mafft_aligned/OG0006021.alignment
+    wildcards: sample=OG0006021
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:20 2023]
+Finished job 35.
+103 of 152 steps (68%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:20 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006157.fa
+    output: mafft_aligned/OG0006157.alignment
+    jobid: 95
+    reason: Missing output files: mafft_aligned/OG0006157.alignment
+    wildcards: sample=OG0006157
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:21 2023]
+Finished job 95.
+104 of 152 steps (68%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:21 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006086.fa
+    output: mafft_aligned/OG0006086.alignment
+    jobid: 67
+    reason: Missing output files: mafft_aligned/OG0006086.alignment
+    wildcards: sample=OG0006086
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:21 2023]
+Finished job 67.
+105 of 152 steps (69%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:21 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005924.fa
+    output: mafft_aligned/OG0005924.alignment
+    jobid: 3
+    reason: Missing output files: mafft_aligned/OG0005924.alignment
+    wildcards: sample=OG0005924
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:22 2023]
+Finished job 3.
+106 of 152 steps (70%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:22 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005957.fa
+    output: mafft_aligned/OG0005957.alignment
+    jobid: 13
+    reason: Missing output files: mafft_aligned/OG0005957.alignment
+    wildcards: sample=OG0005957
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:26 2023]
+Finished job 13.
+107 of 152 steps (70%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:26 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006074.fa
+    output: mafft_aligned/OG0006074.alignment
+    jobid: 60
+    reason: Missing output files: mafft_aligned/OG0006074.alignment
+    wildcards: sample=OG0006074
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:29 2023]
+Finished job 60.
+108 of 152 steps (71%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:30 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006009.fa
+    output: mafft_aligned/OG0006009.alignment
+    jobid: 31
+    reason: Missing output files: mafft_aligned/OG0006009.alignment
+    wildcards: sample=OG0006009
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:30 2023]
+Finished job 31.
+109 of 152 steps (72%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:30 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006233.fa
+    output: mafft_aligned/OG0006233.alignment
+    jobid: 120
+    reason: Missing output files: mafft_aligned/OG0006233.alignment
+    wildcards: sample=OG0006233
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:31 2023]
+Finished job 120.
+110 of 152 steps (72%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:31 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006171.fa
+    output: mafft_aligned/OG0006171.alignment
+    jobid: 98
+    reason: Missing output files: mafft_aligned/OG0006171.alignment
+    wildcards: sample=OG0006171
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:32 2023]
+Finished job 98.
+111 of 152 steps (73%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:32 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006097.fa
+    output: mafft_aligned/OG0006097.alignment
+    jobid: 70
+    reason: Missing output files: mafft_aligned/OG0006097.alignment
+    wildcards: sample=OG0006097
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:33 2023]
+Finished job 70.
+112 of 152 steps (74%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:33 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006026.fa
+    output: mafft_aligned/OG0006026.alignment
+    jobid: 38
+    reason: Missing output files: mafft_aligned/OG0006026.alignment
+    wildcards: sample=OG0006026
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:33 2023]
+Finished job 38.
+113 of 152 steps (74%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:33 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006011.fa
+    output: mafft_aligned/OG0006011.alignment
+    jobid: 33
+    reason: Missing output files: mafft_aligned/OG0006011.alignment
+    wildcards: sample=OG0006011
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:34 2023]
+Finished job 33.
+114 of 152 steps (75%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:34 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006054.fa
+    output: mafft_aligned/OG0006054.alignment
+    jobid: 51
+    reason: Missing output files: mafft_aligned/OG0006054.alignment
+    wildcards: sample=OG0006054
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:34 2023]
+Finished job 51.
+115 of 152 steps (76%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:34 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006150.fa
+    output: mafft_aligned/OG0006150.alignment
+    jobid: 93
+    reason: Missing output files: mafft_aligned/OG0006150.alignment
+    wildcards: sample=OG0006150
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:35 2023]
+Finished job 93.
+116 of 152 steps (76%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:35 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006249.fa
+    output: mafft_aligned/OG0006249.alignment
+    jobid: 125
+    reason: Missing output files: mafft_aligned/OG0006249.alignment
+    wildcards: sample=OG0006249
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:35 2023]
+Finished job 125.
+117 of 152 steps (77%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:35 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006326.fa
+    output: mafft_aligned/OG0006326.alignment
+    jobid: 149
+    reason: Missing output files: mafft_aligned/OG0006326.alignment
+    wildcards: sample=OG0006326
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:36 2023]
+Finished job 149.
+118 of 152 steps (78%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:36 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006032.fa
+    output: mafft_aligned/OG0006032.alignment
+    jobid: 41
+    reason: Missing output files: mafft_aligned/OG0006032.alignment
+    wildcards: sample=OG0006032
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:36 2023]
+Finished job 41.
+119 of 152 steps (78%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:36 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006185.fa
+    output: mafft_aligned/OG0006185.alignment
+    jobid: 101
+    reason: Missing output files: mafft_aligned/OG0006185.alignment
+    wildcards: sample=OG0006185
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:37 2023]
+Finished job 101.
+120 of 152 steps (79%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:37 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006330.fa
+    output: mafft_aligned/OG0006330.alignment
+    jobid: 151
+    reason: Missing output files: mafft_aligned/OG0006330.alignment
+    wildcards: sample=OG0006330
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:37 2023]
+Finished job 151.
+121 of 152 steps (80%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:37 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005972.fa
+    output: mafft_aligned/OG0005972.alignment
+    jobid: 21
+    reason: Missing output files: mafft_aligned/OG0005972.alignment
+    wildcards: sample=OG0005972
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:38 2023]
+Finished job 21.
+122 of 152 steps (80%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:38 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006112.fa
+    output: mafft_aligned/OG0006112.alignment
+    jobid: 74
+    reason: Missing output files: mafft_aligned/OG0006112.alignment
+    wildcards: sample=OG0006112
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:38 2023]
+Finished job 74.
+123 of 152 steps (81%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:38 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006016.fa
+    output: mafft_aligned/OG0006016.alignment
+    jobid: 34
+    reason: Missing output files: mafft_aligned/OG0006016.alignment
+    wildcards: sample=OG0006016
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:38 2023]
+Finished job 34.
+124 of 152 steps (82%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:38 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005962.fa
+    output: mafft_aligned/OG0005962.alignment
+    jobid: 16
+    reason: Missing output files: mafft_aligned/OG0005962.alignment
+    wildcards: sample=OG0005962
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:39 2023]
+Finished job 16.
+125 of 152 steps (82%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:39 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006077.fa
+    output: mafft_aligned/OG0006077.alignment
+    jobid: 63
+    reason: Missing output files: mafft_aligned/OG0006077.alignment
+    wildcards: sample=OG0006077
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:39 2023]
+Finished job 63.
+126 of 152 steps (83%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:39 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006244.fa
+    output: mafft_aligned/OG0006244.alignment
+    jobid: 123
+    reason: Missing output files: mafft_aligned/OG0006244.alignment
+    wildcards: sample=OG0006244
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:40 2023]
+Finished job 123.
+127 of 152 steps (84%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:40 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006050.fa
+    output: mafft_aligned/OG0006050.alignment
+    jobid: 49
+    reason: Missing output files: mafft_aligned/OG0006050.alignment
+    wildcards: sample=OG0006050
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:42 2023]
+Finished job 49.
+128 of 152 steps (84%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:42 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006159.fa
+    output: mafft_aligned/OG0006159.alignment
+    jobid: 96
+    reason: Missing output files: mafft_aligned/OG0006159.alignment
+    wildcards: sample=OG0006159
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:42 2023]
+Finished job 96.
+129 of 152 steps (85%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:42 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006023.fa
+    output: mafft_aligned/OG0006023.alignment
+    jobid: 36
+    reason: Missing output files: mafft_aligned/OG0006023.alignment
+    wildcards: sample=OG0006023
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:44 2023]
+Finished job 36.
+130 of 152 steps (86%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:44 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006311.fa
+    output: mafft_aligned/OG0006311.alignment
+    jobid: 145
+    reason: Missing output files: mafft_aligned/OG0006311.alignment
+    wildcards: sample=OG0006311
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:44 2023]
+Finished job 145.
+131 of 152 steps (86%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:44 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005974.fa
+    output: mafft_aligned/OG0005974.alignment
+    jobid: 22
+    reason: Missing output files: mafft_aligned/OG0005974.alignment
+    wildcards: sample=OG0005974
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:45 2023]
+Finished job 22.
+132 of 152 steps (87%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:45 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006128.fa
+    output: mafft_aligned/OG0006128.alignment
+    jobid: 82
+    reason: Missing output files: mafft_aligned/OG0006128.alignment
+    wildcards: sample=OG0006128
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:46 2023]
+Finished job 82.
+133 of 152 steps (88%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:46 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006048.fa
+    output: mafft_aligned/OG0006048.alignment
+    jobid: 48
+    reason: Missing output files: mafft_aligned/OG0006048.alignment
+    wildcards: sample=OG0006048
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:46 2023]
+Finished job 48.
+134 of 152 steps (88%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:46 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005956.fa
+    output: mafft_aligned/OG0005956.alignment
+    jobid: 12
+    reason: Missing output files: mafft_aligned/OG0005956.alignment
+    wildcards: sample=OG0005956
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:46 2023]
+Finished job 12.
+135 of 152 steps (89%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:46 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006075.fa
+    output: mafft_aligned/OG0006075.alignment
+    jobid: 61
+    reason: Missing output files: mafft_aligned/OG0006075.alignment
+    wildcards: sample=OG0006075
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:47 2023]
+Finished job 61.
+136 of 152 steps (89%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:47 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006236.fa
+    output: mafft_aligned/OG0006236.alignment
+    jobid: 121
+    reason: Missing output files: mafft_aligned/OG0006236.alignment
+    wildcards: sample=OG0006236
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:47 2023]
+Finished job 121.
+137 of 152 steps (90%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:47 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006062.fa
+    output: mafft_aligned/OG0006062.alignment
+    jobid: 54
+    reason: Missing output files: mafft_aligned/OG0006062.alignment
+    wildcards: sample=OG0006062
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:48 2023]
+Finished job 54.
+138 of 152 steps (91%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:48 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006094.fa
+    output: mafft_aligned/OG0006094.alignment
+    jobid: 69
+    reason: Missing output files: mafft_aligned/OG0006094.alignment
+    wildcards: sample=OG0006094
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:49 2023]
+Finished job 69.
+139 of 152 steps (91%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:49 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006327.fa
+    output: mafft_aligned/OG0006327.alignment
+    jobid: 150
+    reason: Missing output files: mafft_aligned/OG0006327.alignment
+    wildcards: sample=OG0006327
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:49 2023]
+Finished job 150.
+140 of 152 steps (92%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:49 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006286.fa
+    output: mafft_aligned/OG0006286.alignment
+    jobid: 136
+    reason: Missing output files: mafft_aligned/OG0006286.alignment
+    wildcards: sample=OG0006286
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:49 2023]
+Finished job 136.
+141 of 152 steps (93%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:49 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005931.fa
+    output: mafft_aligned/OG0005931.alignment
+    jobid: 5
+    reason: Missing output files: mafft_aligned/OG0005931.alignment
+    wildcards: sample=OG0005931
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:50 2023]
+Finished job 5.
+142 of 152 steps (93%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:50 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006076.fa
+    output: mafft_aligned/OG0006076.alignment
+    jobid: 62
+    reason: Missing output files: mafft_aligned/OG0006076.alignment
+    wildcards: sample=OG0006076
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:51 2023]
+Finished job 62.
+143 of 152 steps (94%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:51 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005929.fa
+    output: mafft_aligned/OG0005929.alignment
+    jobid: 4
+    reason: Missing output files: mafft_aligned/OG0005929.alignment
+    wildcards: sample=OG0005929
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:51 2023]
+Finished job 4.
+144 of 152 steps (95%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:51 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005967.fa
+    output: mafft_aligned/OG0005967.alignment
+    jobid: 19
+    reason: Missing output files: mafft_aligned/OG0005967.alignment
+    wildcards: sample=OG0005967
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:52 2023]
+Finished job 19.
+145 of 152 steps (95%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:52 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006187.fa
+    output: mafft_aligned/OG0006187.alignment
+    jobid: 103
+    reason: Missing output files: mafft_aligned/OG0006187.alignment
+    wildcards: sample=OG0006187
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:53 2023]
+Finished job 103.
+146 of 152 steps (96%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:53 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006037.fa
+    output: mafft_aligned/OG0006037.alignment
+    jobid: 43
+    reason: Missing output files: mafft_aligned/OG0006037.alignment
+    wildcards: sample=OG0006037
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:53 2023]
+Finished job 43.
+147 of 152 steps (97%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:53 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006206.fa
+    output: mafft_aligned/OG0006206.alignment
+    jobid: 110
+    reason: Missing output files: mafft_aligned/OG0006206.alignment
+    wildcards: sample=OG0006206
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:53 2023]
+Finished job 110.
+148 of 152 steps (97%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:53 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0005988.fa
+    output: mafft_aligned/OG0005988.alignment
+    jobid: 26
+    reason: Missing output files: mafft_aligned/OG0005988.alignment
+    wildcards: sample=OG0005988
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:55 2023]
+Finished job 26.
+149 of 152 steps (98%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:55 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006078.fa
+    output: mafft_aligned/OG0006078.alignment
+    jobid: 64
+    reason: Missing output files: mafft_aligned/OG0006078.alignment
+    wildcards: sample=OG0006078
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:55 2023]
+Finished job 64.
+150 of 152 steps (99%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:55 2023]
+rule mafft_align:
+    input: Single_Copy_Orthologue_Sequences/OG0006248.fa
+    output: mafft_aligned/OG0006248.alignment
+    jobid: 124
+    reason: Missing output files: mafft_aligned/OG0006248.alignment
+    wildcards: sample=OG0006248
+    threads: 10
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:56 2023]
+Finished job 124.
+151 of 152 steps (99%) done
+Select jobs to execute...
+
+[Fri Nov  3 01:48:56 2023]
+rule cat_align:
+    input: mafft_aligned/OG0005921.alignment, mafft_aligned/OG0005923.alignment, mafft_aligned/OG0005924.alignment, mafft_aligned/OG0005929.alignment, mafft_aligned/OG0005931.alignment, mafft_aligned/OG0005935.alignment, mafft_aligned/OG0005942.alignment, mafft_aligned/OG0005948.alignment, mafft_aligned/OG0005949.alignment, mafft_aligned/OG0005950.alignment, mafft_aligned/OG0005953.alignment, mafft_aligned/OG0005956.alignment, mafft_aligned/OG0005957.alignment, mafft_aligned/OG0005958.alignment, mafft_aligned/OG0005960.alignment, mafft_aligned/OG0005962.alignment, mafft_aligned/OG0005965.alignment, mafft_aligned/OG0005966.alignment, mafft_aligned/OG0005967.alignment, mafft_aligned/OG0005969.alignment, mafft_aligned/OG0005972.alignment, mafft_aligned/OG0005974.alignment, mafft_aligned/OG0005976.alignment, mafft_aligned/OG0005977.alignment, mafft_aligned/OG0005987.alignment, mafft_aligned/OG0005988.alignment, mafft_aligned/OG0005990.alignment, mafft_aligned/OG0005992.alignment, mafft_aligned/OG0006001.alignment, mafft_aligned/OG0006002.alignment, mafft_aligned/OG0006009.alignment, mafft_aligned/OG0006010.alignment, mafft_aligned/OG0006011.alignment, mafft_aligned/OG0006016.alignment, mafft_aligned/OG0006021.alignment, mafft_aligned/OG0006023.alignment, mafft_aligned/OG0006024.alignment, mafft_aligned/OG0006026.alignment, mafft_aligned/OG0006030.alignment, mafft_aligned/OG0006031.alignment, mafft_aligned/OG0006032.alignment, mafft_aligned/OG0006033.alignment, mafft_aligned/OG0006037.alignment, mafft_aligned/OG0006039.alignment, mafft_aligned/OG0006041.alignment, mafft_aligned/OG0006043.alignment, mafft_aligned/OG0006044.alignment, mafft_aligned/OG0006048.alignment, mafft_aligned/OG0006050.alignment, mafft_aligned/OG0006053.alignment, mafft_aligned/OG0006054.alignment, mafft_aligned/OG0006056.alignment, mafft_aligned/OG0006057.alignment, mafft_aligned/OG0006062.alignment, mafft_aligned/OG0006063.alignment, mafft_aligned/OG0006064.alignment, mafft_aligned/OG0006067.alignment, mafft_aligned/OG0006068.alignment, mafft_aligned/OG0006069.alignment, mafft_aligned/OG0006074.alignment, mafft_aligned/OG0006075.alignment, mafft_aligned/OG0006076.alignment, mafft_aligned/OG0006077.alignment, mafft_aligned/OG0006078.alignment, mafft_aligned/OG0006079.alignment, mafft_aligned/OG0006084.alignment, mafft_aligned/OG0006086.alignment, mafft_aligned/OG0006090.alignment, mafft_aligned/OG0006094.alignment, mafft_aligned/OG0006097.alignment, mafft_aligned/OG0006102.alignment, mafft_aligned/OG0006109.alignment, mafft_aligned/OG0006111.alignment, mafft_aligned/OG0006112.alignment, mafft_aligned/OG0006114.alignment, mafft_aligned/OG0006115.alignment, mafft_aligned/OG0006118.alignment, mafft_aligned/OG0006119.alignment, mafft_aligned/OG0006122.alignment, mafft_aligned/OG0006123.alignment, mafft_aligned/OG0006126.alignment, mafft_aligned/OG0006128.alignment, mafft_aligned/OG0006129.alignment, mafft_aligned/OG0006130.alignment, mafft_aligned/OG0006134.alignment, mafft_aligned/OG0006135.alignment, mafft_aligned/OG0006136.alignment, mafft_aligned/OG0006140.alignment, mafft_aligned/OG0006141.alignment, mafft_aligned/OG0006146.alignment, mafft_aligned/OG0006147.alignment, mafft_aligned/OG0006148.alignment, mafft_aligned/OG0006150.alignment, mafft_aligned/OG0006154.alignment, mafft_aligned/OG0006157.alignment, mafft_aligned/OG0006159.alignment, mafft_aligned/OG0006166.alignment, mafft_aligned/OG0006171.alignment, mafft_aligned/OG0006179.alignment, mafft_aligned/OG0006181.alignment, mafft_aligned/OG0006185.alignment, mafft_aligned/OG0006186.alignment, mafft_aligned/OG0006187.alignment, mafft_aligned/OG0006189.alignment, mafft_aligned/OG0006191.alignment, mafft_aligned/OG0006197.alignment, mafft_aligned/OG0006202.alignment, mafft_aligned/OG0006204.alignment, mafft_aligned/OG0006205.alignment, mafft_aligned/OG0006206.alignment, mafft_aligned/OG0006213.alignment, mafft_aligned/OG0006216.alignment, mafft_aligned/OG0006221.alignment, mafft_aligned/OG0006225.alignment, mafft_aligned/OG0006226.alignment, mafft_aligned/OG0006228.alignment, mafft_aligned/OG0006229.alignment, mafft_aligned/OG0006231.alignment, mafft_aligned/OG0006232.alignment, mafft_aligned/OG0006233.alignment, mafft_aligned/OG0006236.alignment, mafft_aligned/OG0006238.alignment, mafft_aligned/OG0006244.alignment, mafft_aligned/OG0006248.alignment, mafft_aligned/OG0006249.alignment, mafft_aligned/OG0006251.alignment, mafft_aligned/OG0006255.alignment, mafft_aligned/OG0006258.alignment, mafft_aligned/OG0006260.alignment, mafft_aligned/OG0006261.alignment, mafft_aligned/OG0006269.alignment, mafft_aligned/OG0006270.alignment, mafft_aligned/OG0006277.alignment, mafft_aligned/OG0006278.alignment, mafft_aligned/OG0006280.alignment, mafft_aligned/OG0006286.alignment, mafft_aligned/OG0006288.alignment, mafft_aligned/OG0006289.alignment, mafft_aligned/OG0006295.alignment, mafft_aligned/OG0006299.alignment, mafft_aligned/OG0006301.alignment, mafft_aligned/OG0006303.alignment, mafft_aligned/OG0006304.alignment, mafft_aligned/OG0006305.alignment, mafft_aligned/OG0006311.alignment, mafft_aligned/OG0006313.alignment, mafft_aligned/OG0006322.alignment, mafft_aligned/OG0006324.alignment, mafft_aligned/OG0006326.alignment, mafft_aligned/OG0006327.alignment, mafft_aligned/OG0006330.alignment
+    output: mafft_aligned/all.alignment
+    jobid: 0
+    reason: Missing output files: mafft_aligned/all.alignment; Input files updated by another job: mafft_aligned/OG0006053.alignment, mafft_aligned/OG0006277.alignment, mafft_aligned/OG0006166.alignment, mafft_aligned/OG0006304.alignment, mafft_aligned/OG0005924.alignment, mafft_aligned/OG0005969.alignment, mafft_aligned/OG0006037.alignment, mafft_aligned/OG0005987.alignment, mafft_aligned/OG0006069.alignment, mafft_aligned/OG0006269.alignment, mafft_aligned/OG0005988.alignment, mafft_aligned/OG0005960.alignment, mafft_aligned/OG0005990.alignment, mafft_aligned/OG0006112.alignment, mafft_aligned/OG0006111.alignment, mafft_aligned/OG0005921.alignment, mafft_aligned/OG0006130.alignment, mafft_aligned/OG0006327.alignment, mafft_aligned/OG0006064.alignment, mafft_aligned/OG0006278.alignment, mafft_aligned/OG0006076.alignment, mafft_aligned/OG0006102.alignment, mafft_aligned/OG0006202.alignment, mafft_aligned/OG0006074.alignment, mafft_aligned/OG0006023.alignment, mafft_aligned/OG0006221.alignment, mafft_aligned/OG0006009.alignment, mafft_aligned/OG0006251.alignment, mafft_aligned/OG0006159.alignment, mafft_aligned/OG0006189.alignment, mafft_aligned/OG0006299.alignment, mafft_aligned/OG0006186.alignment, mafft_aligned/OG0005992.alignment, mafft_aligned/OG0005923.alignment, mafft_aligned/OG0005977.alignment, mafft_aligned/OG0006123.alignment, mafft_aligned/OG0006016.alignment, mafft_aligned/OG0006295.alignment, mafft_aligned/OG0006119.alignment, mafft_aligned/OG0006181.alignment, mafft_aligned/OG0006001.alignment, mafft_aligned/OG0005972.alignment, mafft_aligned/OG0006140.alignment, mafft_aligned/OG0006322.alignment, mafft_aligned/OG0005956.alignment, mafft_aligned/OG0005965.alignment, mafft_aligned/OG0005974.alignment, mafft_aligned/OG0006044.alignment, mafft_aligned/OG0006148.alignment, mafft_aligned/OG0006197.alignment, mafft_aligned/OG0005957.alignment, mafft_aligned/OG0006039.alignment, mafft_aligned/OG0006270.alignment, mafft_aligned/OG0006090.alignment, mafft_aligned/OG0006021.alignment, mafft_aligned/OG0006084.alignment, mafft_aligned/OG0006154.alignment, mafft_aligned/OG0006026.alignment, mafft_aligned/OG0006150.alignment, mafft_aligned/OG0006244.alignment, mafft_aligned/OG0006128.alignment, mafft_aligned/OG0006115.alignment, mafft_aligned/OG0005950.alignment, mafft_aligned/OG0005935.alignment, mafft_aligned/OG0006216.alignment, mafft_aligned/OG0006094.alignment, mafft_aligned/OG0006077.alignment, mafft_aligned/OG0006248.alignment, mafft_aligned/OG0006289.alignment, mafft_aligned/OG0006135.alignment, mafft_aligned/OG0006226.alignment, mafft_aligned/OG0006086.alignment, mafft_aligned/OG0006062.alignment, mafft_aligned/OG0006236.alignment, mafft_aligned/OG0006288.alignment, mafft_aligned/OG0006054.alignment, mafft_aligned/OG0005929.alignment, mafft_aligned/OG0006118.alignment, mafft_aligned/OG0006078.alignment, mafft_aligned/OG0006261.alignment, mafft_aligned/OG0006255.alignment, mafft_aligned/OG0006303.alignment, mafft_aligned/OG0006324.alignment, mafft_aligned/OG0006311.alignment, mafft_aligned/OG0006330.alignment, mafft_aligned/OG0006024.alignment, mafft_aligned/OG0006079.alignment, mafft_aligned/OG0006136.alignment, mafft_aligned/OG0006232.alignment, mafft_aligned/OG0006141.alignment, mafft_aligned/OG0005958.alignment, mafft_aligned/OG0005966.alignment, mafft_aligned/OG0006249.alignment, mafft_aligned/OG0005931.alignment, mafft_aligned/OG0006057.alignment, mafft_aligned/OG0006280.alignment, mafft_aligned/OG0006043.alignment, mafft_aligned/OG0005942.alignment, mafft_aligned/OG0006179.alignment, mafft_aligned/OG0006185.alignment, mafft_aligned/OG0006097.alignment, mafft_aligned/OG0006126.alignment, mafft_aligned/OG0006229.alignment, mafft_aligned/OG0005953.alignment, mafft_aligned/OG0006109.alignment, mafft_aligned/OG0006147.alignment, mafft_aligned/OG0006048.alignment, mafft_aligned/OG0006171.alignment, mafft_aligned/OG0005976.alignment, mafft_aligned/OG0006225.alignment, mafft_aligned/OG0006233.alignment, mafft_aligned/OG0005948.alignment, mafft_aligned/OG0006191.alignment, mafft_aligned/OG0006050.alignment, mafft_aligned/OG0006011.alignment, mafft_aligned/OG0006010.alignment, mafft_aligned/OG0005967.alignment, mafft_aligned/OG0006056.alignment, mafft_aligned/OG0006205.alignment, mafft_aligned/OG0006204.alignment, mafft_aligned/OG0006032.alignment, mafft_aligned/OG0006041.alignment, mafft_aligned/OG0006238.alignment, mafft_aligned/OG0006122.alignment, mafft_aligned/OG0006206.alignment, mafft_aligned/OG0006326.alignment, mafft_aligned/OG0006030.alignment, mafft_aligned/OG0006129.alignment, mafft_aligned/OG0006231.alignment, mafft_aligned/OG0006075.alignment, mafft_aligned/OG0006068.alignment, mafft_aligned/OG0006286.alignment, mafft_aligned/OG0006305.alignment, mafft_aligned/OG0006260.alignment, mafft_aligned/OG0006033.alignment, mafft_aligned/OG0005962.alignment, mafft_aligned/OG0006114.alignment, mafft_aligned/OG0006258.alignment, mafft_aligned/OG0006134.alignment, mafft_aligned/OG0006213.alignment, mafft_aligned/OG0006063.alignment, mafft_aligned/OG0006228.alignment, mafft_aligned/OG0005949.alignment, mafft_aligned/OG0006031.alignment, mafft_aligned/OG0006002.alignment, mafft_aligned/OG0006067.alignment, mafft_aligned/OG0006157.alignment, mafft_aligned/OG0006187.alignment, mafft_aligned/OG0006301.alignment, mafft_aligned/OG0006146.alignment, mafft_aligned/OG0006313.alignment
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 01:48:56 2023]
+Error in rule cat_align:
+    jobid: 0
+    input: mafft_aligned/OG0005921.alignment, mafft_aligned/OG0005923.alignment, mafft_aligned/OG0005924.alignment, mafft_aligned/OG0005929.alignment, mafft_aligned/OG0005931.alignment, mafft_aligned/OG0005935.alignment, mafft_aligned/OG0005942.alignment, mafft_aligned/OG0005948.alignment, mafft_aligned/OG0005949.alignment, mafft_aligned/OG0005950.alignment, mafft_aligned/OG0005953.alignment, mafft_aligned/OG0005956.alignment, mafft_aligned/OG0005957.alignment, mafft_aligned/OG0005958.alignment, mafft_aligned/OG0005960.alignment, mafft_aligned/OG0005962.alignment, mafft_aligned/OG0005965.alignment, mafft_aligned/OG0005966.alignment, mafft_aligned/OG0005967.alignment, mafft_aligned/OG0005969.alignment, mafft_aligned/OG0005972.alignment, mafft_aligned/OG0005974.alignment, mafft_aligned/OG0005976.alignment, mafft_aligned/OG0005977.alignment, mafft_aligned/OG0005987.alignment, mafft_aligned/OG0005988.alignment, mafft_aligned/OG0005990.alignment, mafft_aligned/OG0005992.alignment, mafft_aligned/OG0006001.alignment, mafft_aligned/OG0006002.alignment, mafft_aligned/OG0006009.alignment, mafft_aligned/OG0006010.alignment, mafft_aligned/OG0006011.alignment, mafft_aligned/OG0006016.alignment, mafft_aligned/OG0006021.alignment, mafft_aligned/OG0006023.alignment, mafft_aligned/OG0006024.alignment, mafft_aligned/OG0006026.alignment, mafft_aligned/OG0006030.alignment, mafft_aligned/OG0006031.alignment, mafft_aligned/OG0006032.alignment, mafft_aligned/OG0006033.alignment, mafft_aligned/OG0006037.alignment, mafft_aligned/OG0006039.alignment, mafft_aligned/OG0006041.alignment, mafft_aligned/OG0006043.alignment, mafft_aligned/OG0006044.alignment, mafft_aligned/OG0006048.alignment, mafft_aligned/OG0006050.alignment, mafft_aligned/OG0006053.alignment, mafft_aligned/OG0006054.alignment, mafft_aligned/OG0006056.alignment, mafft_aligned/OG0006057.alignment, mafft_aligned/OG0006062.alignment, mafft_aligned/OG0006063.alignment, mafft_aligned/OG0006064.alignment, mafft_aligned/OG0006067.alignment, mafft_aligned/OG0006068.alignment, mafft_aligned/OG0006069.alignment, mafft_aligned/OG0006074.alignment, mafft_aligned/OG0006075.alignment, mafft_aligned/OG0006076.alignment, mafft_aligned/OG0006077.alignment, mafft_aligned/OG0006078.alignment, mafft_aligned/OG0006079.alignment, mafft_aligned/OG0006084.alignment, mafft_aligned/OG0006086.alignment, mafft_aligned/OG0006090.alignment, mafft_aligned/OG0006094.alignment, mafft_aligned/OG0006097.alignment, mafft_aligned/OG0006102.alignment, mafft_aligned/OG0006109.alignment, mafft_aligned/OG0006111.alignment, mafft_aligned/OG0006112.alignment, mafft_aligned/OG0006114.alignment, mafft_aligned/OG0006115.alignment, mafft_aligned/OG0006118.alignment, mafft_aligned/OG0006119.alignment, mafft_aligned/OG0006122.alignment, mafft_aligned/OG0006123.alignment, mafft_aligned/OG0006126.alignment, mafft_aligned/OG0006128.alignment, mafft_aligned/OG0006129.alignment, mafft_aligned/OG0006130.alignment, mafft_aligned/OG0006134.alignment, mafft_aligned/OG0006135.alignment, mafft_aligned/OG0006136.alignment, mafft_aligned/OG0006140.alignment, mafft_aligned/OG0006141.alignment, mafft_aligned/OG0006146.alignment, mafft_aligned/OG0006147.alignment, mafft_aligned/OG0006148.alignment, mafft_aligned/OG0006150.alignment, mafft_aligned/OG0006154.alignment, mafft_aligned/OG0006157.alignment, mafft_aligned/OG0006159.alignment, mafft_aligned/OG0006166.alignment, mafft_aligned/OG0006171.alignment, mafft_aligned/OG0006179.alignment, mafft_aligned/OG0006181.alignment, mafft_aligned/OG0006185.alignment, mafft_aligned/OG0006186.alignment, mafft_aligned/OG0006187.alignment, mafft_aligned/OG0006189.alignment, mafft_aligned/OG0006191.alignment, mafft_aligned/OG0006197.alignment, mafft_aligned/OG0006202.alignment, mafft_aligned/OG0006204.alignment, mafft_aligned/OG0006205.alignment, mafft_aligned/OG0006206.alignment, mafft_aligned/OG0006213.alignment, mafft_aligned/OG0006216.alignment, mafft_aligned/OG0006221.alignment, mafft_aligned/OG0006225.alignment, mafft_aligned/OG0006226.alignment, mafft_aligned/OG0006228.alignment, mafft_aligned/OG0006229.alignment, mafft_aligned/OG0006231.alignment, mafft_aligned/OG0006232.alignment, mafft_aligned/OG0006233.alignment, mafft_aligned/OG0006236.alignment, mafft_aligned/OG0006238.alignment, mafft_aligned/OG0006244.alignment, mafft_aligned/OG0006248.alignment, mafft_aligned/OG0006249.alignment, mafft_aligned/OG0006251.alignment, mafft_aligned/OG0006255.alignment, mafft_aligned/OG0006258.alignment, mafft_aligned/OG0006260.alignment, mafft_aligned/OG0006261.alignment, mafft_aligned/OG0006269.alignment, mafft_aligned/OG0006270.alignment, mafft_aligned/OG0006277.alignment, mafft_aligned/OG0006278.alignment, mafft_aligned/OG0006280.alignment, mafft_aligned/OG0006286.alignment, mafft_aligned/OG0006288.alignment, mafft_aligned/OG0006289.alignment, mafft_aligned/OG0006295.alignment, mafft_aligned/OG0006299.alignment, mafft_aligned/OG0006301.alignment, mafft_aligned/OG0006303.alignment, mafft_aligned/OG0006304.alignment, mafft_aligned/OG0006305.alignment, mafft_aligned/OG0006311.alignment, mafft_aligned/OG0006313.alignment, mafft_aligned/OG0006322.alignment, mafft_aligned/OG0006324.alignment, mafft_aligned/OG0006326.alignment, mafft_aligned/OG0006327.alignment, mafft_aligned/OG0006330.alignment
+    output: mafft_aligned/all.alignment
+    shell:
+        cat mafft_aligned/mafft_aligned/OG0005921.alignment mafft_aligned/OG0005923.alignment mafft_aligned/OG0005924.alignment mafft_aligned/OG0005929.alignment mafft_aligned/OG0005931.alignment mafft_aligned/OG0005935.alignment mafft_aligned/OG0005942.alignment mafft_aligned/OG0005948.alignment mafft_aligned/OG0005949.alignment mafft_aligned/OG0005950.alignment mafft_aligned/OG0005953.alignment mafft_aligned/OG0005956.alignment mafft_aligned/OG0005957.alignment mafft_aligned/OG0005958.alignment mafft_aligned/OG0005960.alignment mafft_aligned/OG0005962.alignment mafft_aligned/OG0005965.alignment mafft_aligned/OG0005966.alignment mafft_aligned/OG0005967.alignment mafft_aligned/OG0005969.alignment mafft_aligned/OG0005972.alignment mafft_aligned/OG0005974.alignment mafft_aligned/OG0005976.alignment mafft_aligned/OG0005977.alignment mafft_aligned/OG0005987.alignment mafft_aligned/OG0005988.alignment mafft_aligned/OG0005990.alignment mafft_aligned/OG0005992.alignment mafft_aligned/OG0006001.alignment mafft_aligned/OG0006002.alignment mafft_aligned/OG0006009.alignment mafft_aligned/OG0006010.alignment mafft_aligned/OG0006011.alignment mafft_aligned/OG0006016.alignment mafft_aligned/OG0006021.alignment mafft_aligned/OG0006023.alignment mafft_aligned/OG0006024.alignment mafft_aligned/OG0006026.alignment mafft_aligned/OG0006030.alignment mafft_aligned/OG0006031.alignment mafft_aligned/OG0006032.alignment mafft_aligned/OG0006033.alignment mafft_aligned/OG0006037.alignment mafft_aligned/OG0006039.alignment mafft_aligned/OG0006041.alignment mafft_aligned/OG0006043.alignment mafft_aligned/OG0006044.alignment mafft_aligned/OG0006048.alignment mafft_aligned/OG0006050.alignment mafft_aligned/OG0006053.alignment mafft_aligned/OG0006054.alignment mafft_aligned/OG0006056.alignment mafft_aligned/OG0006057.alignment mafft_aligned/OG0006062.alignment mafft_aligned/OG0006063.alignment mafft_aligned/OG0006064.alignment mafft_aligned/OG0006067.alignment mafft_aligned/OG0006068.alignment mafft_aligned/OG0006069.alignment mafft_aligned/OG0006074.alignment mafft_aligned/OG0006075.alignment mafft_aligned/OG0006076.alignment mafft_aligned/OG0006077.alignment mafft_aligned/OG0006078.alignment mafft_aligned/OG0006079.alignment mafft_aligned/OG0006084.alignment mafft_aligned/OG0006086.alignment mafft_aligned/OG0006090.alignment mafft_aligned/OG0006094.alignment mafft_aligned/OG0006097.alignment mafft_aligned/OG0006102.alignment mafft_aligned/OG0006109.alignment mafft_aligned/OG0006111.alignment mafft_aligned/OG0006112.alignment mafft_aligned/OG0006114.alignment mafft_aligned/OG0006115.alignment mafft_aligned/OG0006118.alignment mafft_aligned/OG0006119.alignment mafft_aligned/OG0006122.alignment mafft_aligned/OG0006123.alignment mafft_aligned/OG0006126.alignment mafft_aligned/OG0006128.alignment mafft_aligned/OG0006129.alignment mafft_aligned/OG0006130.alignment mafft_aligned/OG0006134.alignment mafft_aligned/OG0006135.alignment mafft_aligned/OG0006136.alignment mafft_aligned/OG0006140.alignment mafft_aligned/OG0006141.alignment mafft_aligned/OG0006146.alignment mafft_aligned/OG0006147.alignment mafft_aligned/OG0006148.alignment mafft_aligned/OG0006150.alignment mafft_aligned/OG0006154.alignment mafft_aligned/OG0006157.alignment mafft_aligned/OG0006159.alignment mafft_aligned/OG0006166.alignment mafft_aligned/OG0006171.alignment mafft_aligned/OG0006179.alignment mafft_aligned/OG0006181.alignment mafft_aligned/OG0006185.alignment mafft_aligned/OG0006186.alignment mafft_aligned/OG0006187.alignment mafft_aligned/OG0006189.alignment mafft_aligned/OG0006191.alignment mafft_aligned/OG0006197.alignment mafft_aligned/OG0006202.alignment mafft_aligned/OG0006204.alignment mafft_aligned/OG0006205.alignment mafft_aligned/OG0006206.alignment mafft_aligned/OG0006213.alignment mafft_aligned/OG0006216.alignment mafft_aligned/OG0006221.alignment mafft_aligned/OG0006225.alignment mafft_aligned/OG0006226.alignment mafft_aligned/OG0006228.alignment mafft_aligned/OG0006229.alignment mafft_aligned/OG0006231.alignment mafft_aligned/OG0006232.alignment mafft_aligned/OG0006233.alignment mafft_aligned/OG0006236.alignment mafft_aligned/OG0006238.alignment mafft_aligned/OG0006244.alignment mafft_aligned/OG0006248.alignment mafft_aligned/OG0006249.alignment mafft_aligned/OG0006251.alignment mafft_aligned/OG0006255.alignment mafft_aligned/OG0006258.alignment mafft_aligned/OG0006260.alignment mafft_aligned/OG0006261.alignment mafft_aligned/OG0006269.alignment mafft_aligned/OG0006270.alignment mafft_aligned/OG0006277.alignment mafft_aligned/OG0006278.alignment mafft_aligned/OG0006280.alignment mafft_aligned/OG0006286.alignment mafft_aligned/OG0006288.alignment mafft_aligned/OG0006289.alignment mafft_aligned/OG0006295.alignment mafft_aligned/OG0006299.alignment mafft_aligned/OG0006301.alignment mafft_aligned/OG0006303.alignment mafft_aligned/OG0006304.alignment mafft_aligned/OG0006305.alignment mafft_aligned/OG0006311.alignment mafft_aligned/OG0006313.alignment mafft_aligned/OG0006322.alignment mafft_aligned/OG0006324.alignment mafft_aligned/OG0006326.alignment mafft_aligned/OG0006327.alignment mafft_aligned/OG0006330.alignment.alignment > mafft_aligned/all.alignment
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job cat_align since they might be corrupted:
+mafft_aligned/all.alignment
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-11-03T014656.448334.snakemake.log

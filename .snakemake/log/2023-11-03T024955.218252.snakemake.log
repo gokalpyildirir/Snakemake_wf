@@ -1,0 +1,33 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job           count
+----------  -------
+all               1
+iqtree_run        1
+total             2
+
+Select jobs to execute...
+
+[Fri Nov  3 02:49:55 2023]
+rule iqtree_run:
+    input: singlescp_trimal.out
+    output: iqtree/all_amf.iqtree
+    jobid: 1
+    reason: Missing output files: iqtree/all_amf.iqtree
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 02:49:55 2023]
+Error in rule iqtree_run:
+    jobid: 1
+    input: singlescp_trimal.out
+    output: iqtree/all_amf.iqtree
+    shell:
+        mkdir iqtree && cd iqtree && iqtree -s singlescp_trimal.out -nt AUTO -B 1000 --prefix all_amf
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2023-11-03T024955.218252.snakemake.log

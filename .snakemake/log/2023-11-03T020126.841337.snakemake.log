@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in rule cat_align in file /ssd1/franck_amfgenomes/Snakemake_wf/Snakefile, line 15:
+Wildcards in input files cannot be determined from output files:
+'sample'

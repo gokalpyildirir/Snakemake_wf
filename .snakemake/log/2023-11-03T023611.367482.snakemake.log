@@ -1,0 +1,4 @@
+Building DAG of jobs...
+WildcardError in rule catfasta2phyml_run in file /ssd1/franck_amfgenomes/Snakemake_wf/Snakefile, line 23:
+Wildcards in input files cannot be determined from output files:
+'sample'

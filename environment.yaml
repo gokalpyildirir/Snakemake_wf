@@ -5,3 +5,5 @@ dependencies:
   - snakemake-minimal >=7.3
   - mafft
   - iqtree
+  - catfasta2phyml
+  - trimal

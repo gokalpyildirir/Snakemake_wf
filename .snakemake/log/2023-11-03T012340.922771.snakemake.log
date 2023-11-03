@@ -1,0 +1,8 @@
+Building DAG of jobs...
+InputFunctionException in rule mafft_align in file /ssd1/franck_amfgenomes/Snakemake_wf/Snakefile, line 6:
+Error:
+  AttributeError: 'Wildcards' object has no attribute 'sample'
+Wildcards:
+
+Traceback:
+  File "/ssd1/franck_amfgenomes/Snakemake_wf/Snakefile", line 4, in get_ortho_dirs
