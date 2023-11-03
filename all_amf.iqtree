@@ -1,0 +1,369 @@
+IQ-TREE 2.2.5 COVID-edition built Sep 15 2023
+
+Input file name: singlescp_trimal.out
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 849837
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 37 sequences with 60555 amino-acid sites
+Number of constant sites: 22850 (= 37.7343% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 22850 (= 37.7343% of all sites)
+Number of parsimony informative sites: 33671
+Number of distinct site patterns: 37256
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: Q.plant+F+I+R4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+Q.plant+F+I+R4  -902449.614 1805093.227 +        1 1805093.542 +        1 1805967.324 +        1
+JTT+F+I+R4      -903278.576 1806751.152 -        0 1806751.467 -        0 1807625.249 -        0
+JTTDCMut+F+I+R4 -903380.355 1806954.709 -        0 1806955.024 -        0 1807828.806 -        0
+Q.plant+I+R4    -904046.942 1808249.885 -        0 1808250.088 -        0 1808952.767 -        0
+Q.mammal+F+I+R4 -905046.347 1810286.695 -        0 1810287.009 -        0 1811160.791 -        0
+JTT+I+R4        -906910.931 1813977.862 -        0 1813978.066 -        0 1814680.744 -        0
+JTTDCMut+I+R4   -907033.108 1814222.215 -        0 1814222.419 -        0 1814925.097 -        0
+Q.insect+F+I+R4 -907395.879 1814985.758 -        0 1814986.072 -        0 1815859.854 -        0
+Q.insect+I+R4   -907717.512 1815591.023 -        0 1815591.227 -        0 1816293.905 -        0
+Q.bird+F+I+R4   -907868.814 1815931.628 -        0 1815931.943 -        0 1816805.725 -        0
+Q.yeast+I+R4    -909303.797 1818763.594 -        0 1818763.798 -        0 1819466.476 -        0
+Q.yeast+F+I+R4  -909302.809 1818799.618 -        0 1818799.932 -        0 1819673.715 -        0
+mtMet+F+I+R4    -909773.958 1819741.916 -        0 1819742.230 -        0 1820616.012 -        0
+mtInv+F+I+R4    -910181.155 1820556.309 -        0 1820556.624 -        0 1821430.406 -        0
+Q.mammal+I+R4   -910493.488 1821142.977 -        0 1821143.181 -        0 1821845.859 -        0
+HIVb+F+I+R4     -910449.257 1821092.514 -        0 1821092.828 -        0 1821966.610 -        0
+FLU+F+I+R4      -910745.843 1821685.686 -        0 1821686.000 -        0 1822559.782 -        0
+LG+F+I+R4       -910927.643 1822049.286 -        0 1822049.601 -        0 1822923.383 -        0
+Q.pfam+F+I+R4   -911353.125 1822900.249 -        0 1822900.564 -        0 1823774.346 -        0
+WAG+F+I+R4      -911927.049 1824048.097 -        0 1824048.411 -        0 1824922.194 -        0
+cpREV+I+R4      -912209.149 1824574.299 -        0 1824574.503 -        0 1825277.181 -        0
+FLU+I+R4        -912357.783 1824871.566 -        0 1824871.770 -        0 1825574.448 -        0
+cpREV+F+I+R4    -912415.196 1825024.392 -        0 1825024.706 -        0 1825898.489 -        0
+LG+I+R4         -912818.491 1825792.982 -        0 1825793.186 -        0 1826495.864 -        0
+LG+R4           -912830.983 1825815.965 -        0 1825816.164 -        0 1826509.836 -        0
+LG+I+R5         -912815.222 1825790.444 -        0 1825790.659 -        0 1826511.349 -        0
+LG+R5           -912821.760 1825801.521 -        0 1825801.730 -        0 1826513.414 -        0
+LG+I+R3         -912858.095 1825868.190 -        0 1825868.384 -        0 1826553.050 -        0
+Q.bird+I+R4     -912928.101 1826012.202 -        0 1826012.406 -        0 1826715.084 -        0
+LG+R3           -913046.252 1826242.504 -        0 1826242.692 -        0 1826918.352 -        0
+LG+I+G4         -913203.812 1826553.624 -        0 1826553.803 -        0 1827211.450 -        0
+LG+G4           -913612.403 1827368.807 -        0 1827368.980 -        0 1828017.621 -        0
+LG+I+R2         -913731.772 1827611.545 -        0 1827611.729 -        0 1828278.382 -        0
+Q.pfam+I+R4     -913899.596 1827955.192 -        0 1827955.396 -        0 1828658.074 -        0
+VT+F+I+R4       -914290.975 1828775.951 -        0 1828776.265 -        0 1829650.047 -        0
+mtREV+F+I+R4    -914960.061 1830114.121 -        0 1830114.436 -        0 1830988.218 -        0
+WAG+I+R4        -915159.217 1830474.434 -        0 1830474.638 -        0 1831177.316 -        0
+Dayhoff+F+I+R4  -915568.608 1831331.215 -        0 1831331.529 -        0 1832205.312 -        0
+DCMut+F+I+R4    -915651.506 1831497.012 -        0 1831497.327 -        0 1832371.109 -        0
+HIVb+I+R4       -915868.601 1831893.201 -        0 1831893.405 -        0 1832596.083 -        0
+VT+I+R4         -915985.977 1832127.955 -        0 1832128.158 -        0 1832830.837 -        0
+LG+R2           -916197.918 1832541.837 -        0 1832542.015 -        0 1833199.662 -        0
+mtVer+F+I+R4    -916242.821 1832679.642 -        0 1832679.956 -        0 1833553.739 -        0
+mtZOA+F+I+R4    -916592.802 1833379.604 -        0 1833379.919 -        0 1834253.701 -        0
+rtREV+F+I+R4    -916903.839 1834001.678 -        0 1834001.992 -        0 1834875.775 -        0
+FLAVI+F+I+R4    -918225.333 1836644.666 -        0 1836644.980 -        0 1837518.763 -        0
+Dayhoff+I+R4    -922324.188 1844804.377 -        0 1844804.580 -        0 1845507.259 -        0
+DCMut+I+R4      -922423.191 1845002.383 -        0 1845002.586 -        0 1845705.265 -        0
+rtREV+I+R4      -923538.952 1847233.904 -        0 1847234.107 -        0 1847936.786 -        0
+FLAVI+I+R4      -925016.227 1850188.454 -        0 1850188.658 -        0 1850891.336 -        0
+PMB+F+I+R4      -925656.487 1851506.974 -        0 1851507.288 -        0 1852381.071 -        0
+mtMAM+F+I+R4    -925893.075 1851980.150 -        0 1851980.465 -        0 1852854.247 -        0
+LG+I            -926120.337 1852384.673 -        0 1852384.847 -        0 1853033.488 -        0
+Blosum62+F+I+R4 -927141.514 1854477.028 -        0 1854477.342 -        0 1855351.125 -        0
+mtART+F+I+R4    -927225.717 1854645.434 -        0 1854645.749 -        0 1855519.531 -        0
+HIVw+F+I+R4     -927454.884 1855103.768 -        0 1855104.083 -        0 1855977.865 -        0
+PMB+I+R4        -928820.713 1857797.426 -        0 1857797.630 -        0 1858500.308 -        0
+Blosum62+I+R4   -929193.859 1858543.718 -        0 1858543.922 -        0 1859246.600 -        0
+HIVw+I+R4       -936702.705 1873561.410 -        0 1873561.613 -        0 1874264.292 -        0
+mtMet+I+R4      -937502.943 1875161.887 -        0 1875162.090 -        0 1875864.769 -        0
+mtZOA+I+R4      -940018.347 1880192.694 -        0 1880192.898 -        0 1880895.576 -        0
+mtVer+I+R4      -944324.332 1888804.665 -        0 1888804.868 -        0 1889507.547 -        0
+mtREV+I+R4      -944420.266 1888996.531 -        0 1888996.735 -        0 1889699.413 -        0
+mtInv+I+R4      -945818.683 1891793.367 -        0 1891793.571 -        0 1892496.249 -        0
+LG              -953587.977 1907317.955 -        0 1907318.124 -        0 1907957.757 -        0
+mtMAM+I+R4      -955993.030 1912142.060 -        0 1912142.264 -        0 1912844.942 -        0
+mtART+I+R4      -956132.247 1912420.495 -        0 1912420.698 -        0 1913123.377 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.plant+F+I+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0644
+  pi(R) = 0.0505
+  pi(N) = 0.0485
+  pi(D) = 0.0563
+  pi(C) = 0.0125
+  pi(Q) = 0.0380
+  pi(E) = 0.0703
+  pi(G) = 0.0534
+  pi(H) = 0.0217
+  pi(I) = 0.0732
+  pi(L) = 0.1022
+  pi(K) = 0.0718
+  pi(M) = 0.0213
+  pi(F) = 0.0413
+  pi(P) = 0.0418
+  pi(S) = 0.0707
+  pi(T) = 0.0559
+  pi(W) = 0.0108
+  pi(Y) = 0.0334
+  pi(V) = 0.0620
+
+Model of rate heterogeneity: Invar+FreeRate with 4 categories
+Proportion of invariable sites: 0.2035
+Site proportion and rates:  (0.3169,0.2563) (0.2885,1.0972) (0.1615,2.7212) (0.0296,5.4996)
+
+ Category  Relative_rate  Proportion
+  0         0              0.2035
+  1         0.2563         0.3169
+  2         1.0972         0.2885
+  3         2.7212         0.1615
+  4         5.4996         0.0296
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -902441.2144 (s.e. 2999.3960)
+Unconstrained log-likelihood (without tree): -548864.8596
+Number of free parameters (#branches + #model parameters): 97
+Akaike information criterion (AIC) score: 1805076.4288
+Corrected Akaike information criterion (AICc) score: 1805076.7433
+Bayesian information criterion (BIC) score: 1805950.5256
+
+Total tree length (sum of branch lengths): 3.0187
+Sum of internal branch lengths: 2.1050 (69.7337% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon '10aS2FUN_000035-T1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--10aS2FUN_000035-T1
+|
+|                                                +--11cS3FUN_016668-T1
+|                                             +--| (100)
+|                                             |  +--agerde|7885_t
+|                                  +----------| (100)
+|                                  |          +---alepto|3351_t
+|                          +-------| (100)
+|                          |       +--------------jgi|Geopyr1|14821|FUN_014995-T1
+|                   +------| (100)
+|                   |      |                              +--13cS5FUN_004591-T1
+|                   |      |                           +--| (100)
+|                   |      |                           |  |  +--FUN_005739-T1
+|                   |      |                           |  +--| (100)
+|                   |      |                           |     +--poculu|7233_t
+|                   |      |                       +---| (100)
+|                   |      |                       |   +--pbrasi|2183_t
+|                   |      +-----------------------| (100)
+|                   |                              +-------9dS1FUN_001764-T1
+|                +--| (99)
+|                |  |                      +--7bS7FUN_010846-T1
+|                |  +----------------------| (100)
+|                |                         |     +--ccandik|835_t
+|                |                         |  +--| (100)
+|                |                         |  |  +--ccandi|866_t
+|                |                         +--| (100)
+|                |                            +--cclaro|13728_t
+|             +--| (100)
+|             |  |                +--16aS7FUN_004202-T1
+|             |  |             +--| (98)
+|             |  |             |  |  +--jgi|Rhidi1|703555|fgenesh1_kg.224___29___TRINITY_GG_7328_c14_g1_i1
+|             |  |             |  +--| (100)
+|             |  |             |     |           +--jgi|Rhiir2_1|1766952|gm1.5838_g
+|             |  |             |     |        +--| (100)
+|             |  |             |     |        |  +--rirreg|17867_t
+|             |  |             |     |     +--| (100)
+|             |  |             |     |     |  |  +--jgi|RhiirA1_1|535199|estExt_Genemark1.C_4230016
+|             |  |             |     |     |  +--| (91)
+|             |  |             |     |     |     |  +--jgi|RhiirA5|393535|estExt_fgenesh1_pg.C_80016
+|             |  |             |     |     |     +--| (63)
+|             |  |             |     |     |        +--jgi|RhiirB3|480667|MIX4282_50_30
+|             |  |             |     |  +--| (100)
+|             |  |             |     |  |  +--jgi|RhiirC2|768392|gm1.969_g
+|             |  |             |     +--| (100)
+|             |  |             |        +--jgi|RhiirA4|494936|MIX1578_535_99
+|             |  |          +--| (100)
+|             |  |          |  +--jgi|Rhicl1|5173|transcript_GBB85029
+|             |  |       +--| (100)
+|             |  |       |  +--jgi|Rhice1_1|715502|estExt_Genewise1.C_4730026
+|             |  +-------| (100)
+|             |          |  +----5cS5FUN_017207-T1
+|             |          +--| (100)
+|             |             |    +--fcaled|8946_t
+|             |             +----| (100)
+|             |                  +--fmosse|9028_t
+|         +---| (100)
+|         |   |         +---cpellu|24754_t
+|         |   +---------| (100)
+|         |             |  +--deryth|32406_t
+|         |             +--| (100)
+|         |                |     +--gmarga|43533_t
+|         |                |  +--| (100)
+|         |                |  |  +--jgi|Gigmar1|6518|rna-F8M41_005910
+|         |                +--| (100)
+|         |                   +--jgi|Gigro1|2026791|fgenesh1_pg.11___44
++---------| (100)
+|         |             +--6aS6FUN_014332-T1
+|         |          +--| (99)
+|         |          |  +--deburn|2938_t
+|         +----------| (100)
+|                    +--Depiga|RHZ86198.1
+|
++--amorro|2180_t
+
+Tree in newick format:
+
+(10aS2FUN_000035-T1:0.0141483692,((((((((11cS3FUN_016668-T1:0.0173451530,agerde|7885_t:0.0165570018)100:0.0459296364,alepto|3351_t:0.0602568838)100:0.1508706285,jgi|Geopyr1|14821|FUN_014995-T1:0.2029539066)100:0.1127686126,(((13cS5FUN_004591-T1:0.0302660935,(FUN_005739-T1:0.0049163515,poculu|7233_t:0.0060807345)100:0.0341762977)100:0.0086922037,pbrasi|2183_t:0.0293124982)100:0.0574175069,9dS1FUN_001764-T1:0.1085299171)100:0.3273761293)100:0.0940247008,(7bS7FUN_010846-T1:0.0016799652,((ccandik|835_t:0.0021586159,ccandi|866_t:0.0030856193)100:0.0033385007,cclaro|13728_t:0.0083773798)100:0.0028766365)100:0.3136933257)99:0.0229327357,((((16aS7FUN_004202-T1:0.0288279155,(jgi|Rhidi1|703555|fgenesh1_kg.224___29___TRINITY_GG_7328_c14_g1_i1:0.0066056169,((((jgi|Rhiir2_1|1766952|gm1.5838_g:0.0004475047,rirreg|17867_t:0.0031029775)100:0.0001547692,(jgi|RhiirA1_1|535199|estExt_Genemark1.C_4230016:0.0002863491,(jgi|RhiirA5|393535|estExt_fgenesh1_pg.C_80016:0.0006667604,jgi|RhiirB3|480667|MIX4282_50_30:0.0005546944)63:0.0000700906)91:0.0000672572)100:0.0002985209,jgi|RhiirC2|768392|gm1.969_g:0.0011263290)100:0.0010236761,jgi|RhiirA4|494936|MIX1578_535_99:0.0019810876)100:0.0032002320)100:0.0271416221)98:0.0052750017,jgi|Rhicl1|5173|transcript_GBB85029:0.0342514475)100:0.0352724661,jgi|Rhice1_1|715502|estExt_Genewise1.C_4730026:0.0488971974)100:0.0415665516,(5cS5FUN_017207-T1:0.0671986038,(fcaled|8946_t:0.0037293733,fmosse|9028_t:0.0038671309)100:0.0736605170)100:0.0315217124)100:0.1148306279)100:0.0445184567,(cpellu|24754_t:0.0609175839,(deryth|32406_t:0.0399373030,((gmarga|43533_t:0.0052943737,jgi|Gigmar1|6518|rna-F8M41_005910:0.0021444942)100:0.0093666353,jgi|Gigro1|2026791|fgenesh1_pg.11___44:0.0133351000)100:0.0262263742)100:0.0223537934)100:0.1449886436)100:0.0576675412,((6aS6FUN_014332-T1:0.0225789146,deburn|2938_t:0.0260779103)99:0.0079037162,Depiga|RHZ86198.1:0.0219846938)100:0.1472266795)100:0.1365919309,amorro|2180_t:0.0141551610);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -902441.195277
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--10aS2FUN_000035-T1
+|
+|                                                +--11cS3FUN_016668-T1
+|                                             +--| (100)
+|                                             |  +--agerde|7885_t
+|                                  +----------| (100)
+|                                  |          +---alepto|3351_t
+|                          +-------| (100)
+|                          |       +--------------jgi|Geopyr1|14821|FUN_014995-T1
+|                   +------| (100)
+|                   |      |                              +--13cS5FUN_004591-T1
+|                   |      |                           +--| (100)
+|                   |      |                           |  |  +--FUN_005739-T1
+|                   |      |                           |  +--| (100)
+|                   |      |                           |     +--poculu|7233_t
+|                   |      |                       +---| (100)
+|                   |      |                       |   +--pbrasi|2183_t
+|                   |      +-----------------------| (100)
+|                   |                              +-------9dS1FUN_001764-T1
+|                +--| (99)
+|                |  |                      +--7bS7FUN_010846-T1
+|                |  +----------------------| (100)
+|                |                         |     +--ccandik|835_t
+|                |                         |  +--| (100)
+|                |                         |  |  +--ccandi|866_t
+|                |                         +--| (100)
+|                |                            +--cclaro|13728_t
+|             +--| (100)
+|             |  |                +--16aS7FUN_004202-T1
+|             |  |             +--| (98)
+|             |  |             |  |  +--jgi|Rhidi1|703555|fgenesh1_kg.224___29___TRINITY_GG_7328_c14_g1_i1
+|             |  |             |  +--| (100)
+|             |  |             |     |           +--jgi|Rhiir2_1|1766952|gm1.5838_g
+|             |  |             |     |        +--| (100)
+|             |  |             |     |        |  +--rirreg|17867_t
+|             |  |             |     |     +--| (100)
+|             |  |             |     |     |  |  +--jgi|RhiirA1_1|535199|estExt_Genemark1.C_4230016
+|             |  |             |     |     |  +--| (91)
+|             |  |             |     |     |     |  +--jgi|RhiirA5|393535|estExt_fgenesh1_pg.C_80016
+|             |  |             |     |     |     +--| (63)
+|             |  |             |     |     |        +--jgi|RhiirB3|480667|MIX4282_50_30
+|             |  |             |     |  +--| (100)
+|             |  |             |     |  |  +--jgi|RhiirC2|768392|gm1.969_g
+|             |  |             |     +--| (100)
+|             |  |             |        +--jgi|RhiirA4|494936|MIX1578_535_99
+|             |  |          +--| (100)
+|             |  |          |  +--jgi|Rhicl1|5173|transcript_GBB85029
+|             |  |       +--| (100)
+|             |  |       |  +--jgi|Rhice1_1|715502|estExt_Genewise1.C_4730026
+|             |  +-------| (100)
+|             |          |  +----5cS5FUN_017207-T1
+|             |          +--| (100)
+|             |             |    +--fcaled|8946_t
+|             |             +----| (100)
+|             |                  +--fmosse|9028_t
+|         +---| (100)
+|         |   |         +---cpellu|24754_t
+|         |   +---------| (100)
+|         |             |  +--deryth|32406_t
+|         |             +--| (100)
+|         |                |     +--gmarga|43533_t
+|         |                |  +--| (100)
+|         |                |  |  +--jgi|Gigmar1|6518|rna-F8M41_005910
+|         |                +--| (100)
+|         |                   +--jgi|Gigro1|2026791|fgenesh1_pg.11___44
++---------| (100)
+|         |             +--6aS6FUN_014332-T1
+|         |          +--| (99)
+|         |          |  +--deburn|2938_t
+|         +----------| (100)
+|                    +--Depiga|RHZ86198.1
+|
++--amorro|2180_t
+
+
+Consensus tree in newick format: 
+
+(10aS2FUN_000035-T1:0.0141650716,((((((((11cS3FUN_016668-T1:0.0173646327,agerde|7885_t:0.0165755864)100:0.0459828033,alepto|3351_t:0.0603200775)100:0.1510453599,jgi|Geopyr1|14821|FUN_014995-T1:0.2031819071)100:0.1128935102,(((13cS5FUN_004591-T1:0.0302984948,(FUN_005739-T1:0.0049222047,poculu|7233_t:0.0060882624)100:0.0342134166)100:0.0087015458,pbrasi|2183_t:0.0293433211)100:0.0574827696,9dS1FUN_001764-T1:0.1086412591)100:0.3277451987)100:0.0941286114,(7bS7FUN_010846-T1:0.0016823704,((ccandik|835_t:0.0021616777,ccandi|866_t:0.0030897601)100:0.0033429917,cclaro|13728_t:0.0083876237)100:0.0028796742)100:0.3140764382)99:0.0229456607,((((16aS7FUN_004202-T1:0.0288665922,(jgi|Rhidi1|703555|fgenesh1_kg.224___29___TRINITY_GG_7328_c14_g1_i1:0.0066152157,((((jgi|Rhiir2_1|1766952|gm1.5838_g:0.0004493324,rirreg|17867_t:0.0031071783)100:0.0001553828,(jgi|RhiirA1_1|535199|estExt_Genemark1.C_4230016:0.0002866623,(jgi|RhiirA5|393535|estExt_fgenesh1_pg.C_80016:0.0006678483,jgi|RhiirB3|480667|MIX4282_50_30:0.0005556166)63:0.0000711793)91:0.0000676765)100:0.0002996221,jgi|RhiirC2|768392|gm1.969_g:0.0011292024)100:0.0010261961,jgi|RhiirA4|494936|MIX1578_535_99:0.0019851597)100:0.0032051420)100:0.0271770337)98:0.0052813442,jgi|Rhicl1|5173|transcript_GBB85029:0.0342971501)100:0.0353165040,jgi|Rhice1_1|715502|estExt_Genewise1.C_4730026:0.0489624866)100:0.0416176969,(5cS5FUN_017207-T1:0.0672849427,(fcaled|8946_t:0.0037339205,fmosse|9028_t:0.0038721704)100:0.0737575743)100:0.0315606613)100:0.1149771846)100:0.0445708722,(cpellu|24754_t:0.0609884476,(deryth|32406_t:0.0399839513,((gmarga|43533_t:0.0053006381,jgi|Gigmar1|6518|rna-F8M41_005910:0.0021478928)100:0.0093784429,jgi|Gigro1|2026791|fgenesh1_pg.11___44:0.0133514722)100:0.0262580214)100:0.0223805166)100:0.1451683434)100:0.0577309295,((6aS6FUN_014332-T1:0.0226065054,deburn|2938_t:0.0261101796)99:0.0079134000,Depiga|RHZ86198.1:0.0220106038)100:0.1474136403)100:0.1367625629,amorro|2180_t:0.0141732678);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t all_amf.treefile -m "Q.plant+F+I{0.203508}+R4{0.316889,0.256261,0.288476,1.09722,0.161546,2.72115,0.0295806,5.49957}" --length 60555
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s singlescp_trimal.out --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s singlescp_trimal.out --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Fri Nov  3 04:45:49 2023
+Total CPU time used: 18656.68636 seconds (5h:10m:56s)
+Total wall-clock time used: 1370.734563 seconds (0h:22m:50s)
+
