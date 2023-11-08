@@ -1,12 +1,12 @@
-# AAFC Phylogenetic Tree Project Part 1
+# AAFC Phylogenetic Tree Project Part 2
 
-This is a Snakemake workflow designed to create a phylogenetic tree. It relies on Mambaforge. If you haven't installed Mambaforge yet, you can follow the installation instructions found here: <https://snakemake.readthedocs.io/en/stable/tutorial/setup.html>
+Welcome to the second phase of our AAFC Phylogenetic Tree Project! This Snakemake workflow is designed to construct a phylogenetic tree using the docker orthogroups created at the end of part 1. Like in part 1, this workflow also relies on Mambaforge. If you haven't installed Mambaforge yet, you can follow the installation instructions found here: [Snakemake Setup Guide](<https://snakemake.readthedocs.io/en/stable/tutorial/setup.html>)
 
 Once you've successfully installed Mambaforge, proceed to create a new conda environment using the provided ```environment.yaml``` file.
 
 ## Creating the Environment
 
-To ensure that all necessary tools for this analysis are available within a single conda environment. I recommend using Mamba/micromamba to create it. Please follow these commands to set up the environment and activate it for the duration of your analysis:
+We recommend using Mamba or Micromamba to create a conda environment that houses all the necessary tools for this analysis. Follow these commands to set up the environment and activate it for your analysis:
 
 ```bash
 micromamba create -n AAFC_snakemake_env --file environment.yaml
@@ -39,6 +39,8 @@ This pipeline enables the creation of a Glomeromycota phylogenetic tree from sin
 
 After creating the conda environment using the ```environment.yaml``` file and generating the ```config.yaml``` file by customizing and running the ```scripts/configmaker.py``` script, the actual Snakemake pipeline can be run.
 
+### Workflow
+
 - First, run the workflow in dry mode:
 
 ```bash
@@ -63,4 +65,4 @@ Once your ```all_amf.iqtree``` file is generated, you can analyze it to identify
 
 ## Citations
 
-This section will soon be updated with relevant citations!
+This part will be updated soon!
