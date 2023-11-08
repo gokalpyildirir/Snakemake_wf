@@ -1,4 +1,4 @@
-# AAFC Phylogenetic Tree Project
+# AAFC Phylogenetic Tree Project Part 1
 
 This is a Snakemake workflow designed to create a phylogenetic tree. It relies on Mambaforge. If you haven't installed Mambaforge yet, you can follow the installation instructions found here: <https://snakemake.readthedocs.io/en/stable/tutorial/setup.html>
 
