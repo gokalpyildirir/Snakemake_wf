@@ -1,5 +1,5 @@
 .snakemake
 all_amf*
-mafft_aligned
+mafft_aligned/*
 single*
-Single_Copy_Orthologue_Sequences
+Single_Copy_Orthologue_Sequences/*
