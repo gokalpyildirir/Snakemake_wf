@@ -1,3 +1,0 @@
-WildcardError in file /ssd1/franck_amfgenomes/Snakemake_wf/Snakefile, line 13:
-No values given for wildcard 'sample'.
-  File "/ssd1/franck_amfgenomes/Snakemake_wf/Snakefile", line 13, in <module>

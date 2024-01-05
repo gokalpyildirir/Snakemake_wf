@@ -1,3 +1,0 @@
-TypeError in file /ssd1/franck_amfgenomes/Snakemake_wf/Snakefile, line 29:
-Workflow.shellcmd() takes 2 positional arguments but 3 were given
-  File "/ssd1/franck_amfgenomes/Snakemake_wf/Snakefile", line 29, in <module>

@@ -1,3 +1,5 @@
-all_amf.bionj
 .snakemake
 all_amf*
+mafft_aligned
+single*
+Single_Copy_Orthologue_Sequences
